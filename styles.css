@@ -13,7 +13,6 @@
   --radius: 18px;
   --shadow: 0 20px 50px rgba(15, 24, 32, 0.1);
 }
-
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body { margin: 0; color: var(--ink); background: var(--light); font-family: "Manrope", sans-serif; font-size: 17px; line-height: 1.75; }
@@ -163,6 +162,7 @@ p { margin: 0 0 1.4em; }
 #methods p { color: var(--muted); }
 .reference-warning { padding: 14px 18px; border-left: 3px solid var(--coral); background: var(--paper); font-size: 0.85rem; }
 .reference-list p { padding-left: 24px; text-indent: -24px; color: var(--muted); font-size: 0.82rem; line-height: 1.6; }
+.reference-list a { overflow-wrap: anywhere; color: var(--ink); text-decoration-color: var(--coral); text-underline-offset: 3px; }
 footer { display: flex; justify-content: space-between; align-items: center; padding: 34px 5vw; color: rgba(255,255,255,0.6); background: var(--dark); font-size: 0.76rem; }
 footer strong, footer span { display: block; }
 footer strong { color: #fff; }
